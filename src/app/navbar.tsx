@@ -5,7 +5,6 @@ import { useState } from "react";
 import Link from "next/link";
 import { FiMenu } from "react-icons/fi";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { useRouter } from "next/navigation";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
