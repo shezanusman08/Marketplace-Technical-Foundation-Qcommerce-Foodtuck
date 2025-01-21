@@ -10,7 +10,6 @@ import { useRouter } from "next/navigation";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState(""); // State for search
-  const router = useRouter(); // For navigation
 
 
 
